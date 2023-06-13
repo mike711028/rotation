@@ -25,8 +25,7 @@ $$
 
 $$
 \begin{aligned}
-{\vec{v}} = \vec{v}_{para} + \vec{v}_{perp} \\
-{\vec{v}}^{\prime} = {\vec{v}_{para}}^{\prime} + {\vec{v}_{perp}}^{\prime}
+{\vec{v}} = \vec{v}_{para} + \vec{v}_{perp}
 \end{aligned}
 $$
 
