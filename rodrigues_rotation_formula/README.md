@@ -21,11 +21,9 @@ b &\text{ : the polar radius(semi-minor axis)}
 \end{align*}
 $$
 
-$$
-
+$
 {\vec{v}} = \vec{v}_\perp + {\vec{v}}_{\parallel}
-
-$$
+$
 
 
 <!-- $$
