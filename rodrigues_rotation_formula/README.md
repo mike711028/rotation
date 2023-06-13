@@ -23,7 +23,7 @@ $$
 
 $$
 \begin{align*}
-{\vec{v}} &= \vec{v}_{\perp}
+{\vec{v}} &= \vec{v}_{\perp} + \vec{v}_{\parallel}
 \end{align*}
 $$
 
