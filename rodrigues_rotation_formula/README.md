@@ -8,6 +8,14 @@ $$
 \end{align*}
 $$
 
+$$
+\begin{align*}
+{\vec{temp}} &= (\vec{g_{0}} \cdot \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}){\vec{g_{0}}}  \\
+{\vec{b_{1}}} &= {\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}} - {\vec{temp}}\\ 
+{\vec{b_{2}}} &= \vec{g_{0}} \times {\vec{b_{1}}}
+\end{align*}
+$$
+
 
 <!-- $$
 \begin{aligned}
