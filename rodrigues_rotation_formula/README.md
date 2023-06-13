@@ -2,11 +2,19 @@
 羅德里格旋轉公式是計算三維空間中，一個向量繞著旋轉軸旋轉並且給定旋轉角度後可以得到新向量的計算公式。
 
 $$
+\begin{align*}
+{\vec{v}} = \vec{v}_{\parallel} + \vec{v}_{\perp} \\
+{\vec{v}}^{\prime} = {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
+\end{align*}
+$$
+
+
+<!-- $$
 \begin{aligned}
 {\vec{v}} = \vec{v}_{\parallel} + \vec{v}_{\perp} \\
 {\vec{v}}^{\prime} = {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
 \end{aligned}
-$$
+$$ -->
 
 <!-- 
 ![Alt text](image/plot1.drawio.png)
