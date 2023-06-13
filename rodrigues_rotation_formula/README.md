@@ -3,8 +3,8 @@
 
 $$
 \begin{align*}
-{\vec{v}} = \vec{v}_{\parallel} + \vec{v}_{\perp} \\
-{\vec{v}}^{\prime} = {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
+{\vec{v}} &= \vec{v}_{\parallel} + \vec{v}_{\perp} \\
+{\vec{v}}^{\prime} &= {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
 \end{align*}
 $$
 
