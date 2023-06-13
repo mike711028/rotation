@@ -22,7 +22,7 @@ b &\text{ : the polar radius(semi-minor axis)}
 $$
 
 $
-{\vec{v}} = \vec{v}_\perp + {\vec{v}}_{\parallel}
+{\vec{v}} = \vec{v}_\perp + {\vec{v}}
 $
 
 
