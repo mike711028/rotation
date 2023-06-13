@@ -9,13 +9,13 @@ $$
 \end{aligned}
 $$
 
-<!-- 
+
 ![Alt text](image/plot1.drawio.png)
 
 向量 $\vec{v}$ 的分量 $\vec{v}_{\parallel}$ 是投影在旋轉軸 $\hat n$ 上的向量，在旋轉的時候不會受到變化，所以
 
 $$
-\vec{v}_{\parallel} = {\vec{v}_{\parallel}}^{\prime}
+\vec{v_{\parallel}} = {\vec{v_{\parallel}}}^{\prime}
 $$
 
 ![Alt text](image/plot2.drawio.png)
@@ -28,24 +28,24 @@ $$
 
 $$
 \begin{align*}
-{\vec{v}}^{\prime} &= {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime} \\
-{\vec{v}}^{\prime} &= {\vec{v}_{\parallel}} + {\vec{v}_{\perp}}^{\prime} 
+{\vec{v}}^{\prime} &= {\vec{v_{\parallel}}}^{\prime} + {\vec{v_{\perp}}}^{\prime} \\
+{\vec{v}}^{\prime} &= {\vec{v_{\parallel}}} + {\vec{v_{\perp}}}^{\prime} 
 \end{align*}
 $$
 
 $$
 \begin{align*}
-{\vec{v}_{\perp}}^{\prime} &= {\vec{v}_{\perp}}{\cos(\theta)} + {{{\hat n} \times {\vec{v}}} \over |{\vec {v}}|}
+{\vec{v_{\perp}}}^{\prime} &= {\vec{v_{\perp}}}{\cos(\theta)} + {{{\hat n} \times {\vec{v}}} \over |{\vec {v}}|}
 |{\vec {v}}|\sin(\theta) \\
-&= {\vec{v}_{\perp}}{\cos(\theta)} + ({\hat n} \times {\vec{v}})\sin(\theta)
+&= {\vec{v_{\perp}}}{\cos(\theta)} + ({\hat n} \times {\vec{v}})\sin(\theta)
 \end{align*}
 $$
 
 $$
 \begin{align*}
-{\vec{v}}^{\prime} &= {\vec{v}_{\parallel}} + {\vec{v}_{\perp}}{\cos(\theta)} + ({\hat n} \times {\vec{v}})\sin(\theta) \\
-&= {\vec{v}_{\parallel}} + (\vec{v} - {\vec{v}_{\parallel}})\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) \\
-&= {\vec{v}_{\parallel}}(1 - \cos(\theta)) + \vec{v}\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) \\
+{\vec{v}}^{\prime} &= {\vec{v_{\parallel}}} + {\vec{v_{\perp}}}{\cos(\theta)} + ({\hat n} \times {\vec{v}})\sin(\theta) \\
+&= {\vec{v_{\parallel}}} + (\vec{v} - {\vec{v_{\parallel}}})\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) \\
+&= {\vec{v_{\parallel}}}(1 - \cos(\theta)) + \vec{v}\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) \\
 &= (\hat{n} \cdot \vec{v})\vec{v}(1 - \cos(\theta)) + \vec{v}\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) 
 \end{align*}
 $$
@@ -55,4 +55,4 @@ the Rodrigues formula for the rotated vector $\vec{v}^{\prime}$ is
 $$
 {\vec{v}}^{\prime}= (\hat{n} \cdot \vec{v})\vec{v}(1 - \cos(\theta)) + \vec{v}\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) 
 $$
- -->
+
