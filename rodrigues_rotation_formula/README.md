@@ -3,13 +3,6 @@
 
 $$
 \begin{align*}
-\vec{v} &= \vec{v}_{\parallel} + \vec{v}_{\perp} \\
-\vec{v}^{\prime} &= {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
-\end{align*}
-$$
-
-$$
-\begin{align*}
 {\vec{temp}} &= (\vec{g_{0}} \cdot \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}){\vec{g_{0}}}  \\
 {\vec{b_{1}}} &= {\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}} - {\vec{temp}}\\ 
 {\vec{b_{2}}} &= \vec{g_{0}} \times {\vec{b_{1}}}
@@ -25,6 +18,13 @@ N(\phi) &= {a^2 \over \sqrt{a^2 \cos^2(\phi) + b^2 \sin^2(\phi)}}
 f &\text{ : flattening of the ellipsoid} \\
 a &\text{ : the equatorial radius(semi-major axis)} \\
 b &\text{ : the polar radius(semi-minor axis)}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\vec{v} &= \vec{v}_{\parallel} + \vec{v}_{\perp} \\
+\vec{v}^{\prime} &= {\vec{v}_{\parallel}}^{\prime} + {\vec{v}_{\perp}}^{\prime}
 \end{align*}
 $$
 
