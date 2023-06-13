@@ -25,7 +25,7 @@ $$
 
 $$
 \begin{aligned}
-{\vec{v}} = \vec{v}_{para} + \vec{v}
+{\vec{v}} = \vec{v_{para}} + \vec{v_{para}}
 \end{aligned}
 $$
 
