@@ -25,7 +25,7 @@ $$
 
 $$
 \begin{aligned}
-{\vec{v}} = \vec{v_{\parallel}} + \vec{v_{\perp}}
+{\vec{v}} = \vec{v_{\parallel}} + \vec{v}_{\perp}
 \end{aligned}
 $$
 
