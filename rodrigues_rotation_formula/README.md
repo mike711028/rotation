@@ -1,7 +1,6 @@
 # Rodrigues' Rotation Formula
 羅德里格旋轉公式是計算三維空間中，一個向量繞著旋轉軸旋轉並且給定旋轉角度後可以得到新向量的計算公式。
 
-
 $$
 \begin{aligned}
 {\vec{v}} = \vec{v}_{\parallel} + \vec{v}_{\perp} \\
@@ -9,7 +8,7 @@ $$
 \end{aligned}
 $$
 
-
+<!-- 
 ![Alt text](image/plot1.drawio.png)
 
 向量 $\vec{v}$ 的分量 $\vec{v}_{\parallel}$ 是投影在旋轉軸 $\hat n$ 上的向量，在旋轉的時候不會受到變化，所以
@@ -55,4 +54,4 @@ the Rodrigues formula for the rotated vector $\vec{v}^{\prime}$ is
 $$
 {\vec{v}}^{\prime}= (\hat{n} \cdot \vec{v})\vec{v}(1 - \cos(\theta)) + \vec{v}\cos(\theta) + ({\hat n} \times {\vec{v}})\sin(\theta) 
 $$
-
+ -->
