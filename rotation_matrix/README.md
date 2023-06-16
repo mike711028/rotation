@@ -1,4 +1,5 @@
 # Rotation Matrix
+## 旋轉矩陣的意義
 旋轉矩陣為一種兩個座標系的相對位置的敘述方法，例如要描述body-frame(簡稱w-frame)對於world frame(簡稱w-frame)的旋轉矩陣為
 
 $$
@@ -42,5 +43,45 @@ x^w_b & y^w_b & z^w_b
 \cos\theta & -\sin\theta & 0 \\
 \sin\theta &  \cos\theta & 0 \\
 0 &  0 & 1
+\end{bmatrix}
+$$
+
+此時Euler Angles的概念就出現了，Euler Angles是來描述相對於x、y、z軸旋轉的旋轉矩陣，
+並且經由一定的順序來描述各種旋轉，最常見的為z-y-x
+
+## 點在空間中的轉動
+如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合
+在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
+
+
+$$ 
+P^b = 
+\begin{bmatrix}
+1 \\ 0 \\ 0
+\end{bmatrix}
+$$
+
+
+$$
+\begin{bmatrix}
+0 \\ 1 \\ 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos90\degree & -\sin90\degree & 0 \\
+\sin90\degree &  \cos90\degree & 0 \\
+0 &  0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\ 0 \\ 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & -1 & 0 \\
+1 &  0 & 0 \\
+0 &  0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\ 0 \\ 0
 \end{bmatrix}
 $$
