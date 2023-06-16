@@ -53,6 +53,11 @@ $$
 如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合
 在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
 
+![Alt text](image/rotation_matrix_4.png)
+
+如上圖所示，當b-frame旋轉時，b-frame上的 $P^b$ 也會跟著旋轉(與b-frame相對位置不變)，
+此時旋轉後的結果就是 $P^b$ 在w-frame上的位置
+
 ```math
 \begin{bmatrix}
 0 \\ 1 \\ 0
@@ -73,5 +78,3 @@ $$
 1 \\ 0 \\ 0
 \end{bmatrix}
 ```
-
-test
