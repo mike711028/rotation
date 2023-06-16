@@ -11,6 +11,8 @@ $$
 
 
 $$
+\begin{aligned}
 \vec{v} = \vec{v}_\parallel + \vec{v}_\perp
+\end{aligned}
 $$
 
