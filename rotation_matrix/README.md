@@ -97,8 +97,8 @@ rotation about the current axis
 
 ![Alt text](image/rotation_matrix_5.png)
 
-從 \{a\} 沿著 $z^a$ 轉動至 \{b\} 此時下一個轉動是沿著當下的 $\{b\}$ 去旋轉
-所以後乘上 $\{c\}$ 相對於 $\{b\}$ 的 $R^b_c$
+從 \{a\} 沿著 $z^a$ 轉動至 \{b\} 此時下一個轉動是沿著當下的 \{b\} 去旋轉
+所以後乘上 {c} 相對於 {b} 的 $R^b_c$
 
 ```math
 R^a_b R^b_c
