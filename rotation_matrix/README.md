@@ -31,3 +31,16 @@ x^w_b & y^w_b & z^w_b
 $$
 
 如果由z軸朝下看x-y平面的話，繞著z軸的轉動可以寫成
+
+![Alt text](image/rotation_matrix_3.png)
+
+$$
+R^w_b(\theta = 90) = 
+\begin{bmatrix}
+x^w_b & y^w_b & z^w_b  
+\end{bmatrix} = \begin{bmatrix}
+\cos\theta & -\sin\theta & 0 \\
+\sin\theta &  \cos\theta & 0 \\
+0 &  0 & 1
+\end{bmatrix}
+$$
