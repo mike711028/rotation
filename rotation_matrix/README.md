@@ -23,12 +23,10 @@ $$
 R^w_b = 
 \begin{bmatrix}
 x^w_b & y^w_b & z^w_b  
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
 0 & -1 & 0 \\
 1 &  0 & 0 \\
-0 &  0 & 1 \\
+0 &  0 & 1
 \end{bmatrix}
 $$
 
