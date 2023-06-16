@@ -19,7 +19,6 @@ $x_b$ 、 $y_b$ 、 $z_b$ 在w-frame中的表示方法
 
 那麼敘述兩者之間的旋轉矩陣為
 
-
 $$
 R^w_b = 
 \begin{bmatrix}
@@ -32,3 +31,5 @@ x^w_b & y^w_b & z^w_b
 0 &  0 & 1 \\
 \end{bmatrix}
 $$
+
+如果由z軸朝下看x-y平面的話，繞著z軸的轉動可以寫成
