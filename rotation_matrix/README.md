@@ -53,33 +53,8 @@ $$
 如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合
 在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
 
-```math
-$$ 
-P^b = 
-\begin{bmatrix}
-1 \\ 0 \\ 0
-\end{bmatrix}
+
 $$
-```
-
-
-```math
-$$
-\begin{aligned}
-\vec{v} = \vec{v}_\parallel + \vec{v}_\perp 
-\end{aligned}
-$$
-```
-
-
-<!-- 
-$$
-\begin{bmatrix}
-0 \\ 1 \\ 0 \\
-\end{bmatrix} 
-$$ -->
-
-<!-- $$
 \begin{bmatrix}
 0 \\ 1 \\ 0
 \end{bmatrix} 
@@ -98,6 +73,6 @@ $$ -->
 \begin{bmatrix}
 1 \\ 0 \\ 0
 \end{bmatrix}
-$$ -->
+$$
 
 test
