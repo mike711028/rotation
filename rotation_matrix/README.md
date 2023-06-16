@@ -65,18 +65,14 @@ $$
 $$
 \begin{bmatrix}
 0 \\ 1 \\ 0
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
 \cos90\degree & -\sin90\degree & 0 \\
 \sin90\degree &  \cos90\degree & 0 \\
 0 &  0 & 1
 \end{bmatrix}
 \begin{bmatrix}
 1 \\ 0 \\ 0
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
 0 & -1 & 0 \\
 1 &  0 & 0 \\
 0 &  0 & 1
