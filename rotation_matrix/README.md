@@ -10,3 +10,7 @@ $$
 
 
 
+$$
+\vec{v} = \vec{v}_\parallel + \vec{v}_\perp
+$$
+
