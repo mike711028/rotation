@@ -54,20 +54,18 @@ $$
 在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
 
 
-$$ 
-P^b 
-= 
+<!-- $$ 
+P^b = 
 \begin{bmatrix}
 1 \\ 0 \\ 0
 \end{bmatrix}
-$$
+$$ -->
 
 
 $$
 \begin{bmatrix}
 0 \\ 1 \\ 0
 \end{bmatrix} 
-
 = \begin{bmatrix}
 \cos90\degree & -\sin90\degree & 0 \\
 \sin90\degree &  \cos90\degree & 0 \\
