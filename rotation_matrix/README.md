@@ -8,11 +8,5 @@ x^w_b & y^w_b & z^w_b
 \end{bmatrix}
 $$
 
-
-
-$$
-\begin{aligned}
-\vec{v} & = & \vec{v}_\parallel & + & \vec{v}_\perp
-\end{aligned}
-$$
-
+$R^w_b$為b-frame相對於w-frame的旋轉矩陣， $x^w_b$ 、 $y^w_b$ 、 $z^w_b$ 則是代表
+$x_b$ 、 $y_b$ 、 $z_b$ 在w-frame中的表示方法
