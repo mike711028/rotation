@@ -12,3 +12,23 @@ $R^w_b$為b-frame相對於w-frame的旋轉矩陣， $x^w_b$ 、 $y^w_b$ 、 $z^w
 $x_b$ 、 $y_b$ 、 $z_b$ 在w-frame中的表示方法
 
 ![Alt text](image/rotation_matrix_1.png)
+
+假設原本b-frame和w-frame重合，b-frame繞著z軸旋轉90度，此時兩者的相對位置為
+
+![Alt text](image/rotation_matrix_2.png)
+
+那麼敘述兩者之間的旋轉矩陣為
+
+
+$$
+R^w_b = 
+\begin{bmatrix}
+x^w_b & y^w_b & z^w_b  
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & -1 & 0 \\
+1 &  0 & 0 \\
+0 &  0 & 1 \\
+\end{bmatrix}
+$$
