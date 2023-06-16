@@ -1,5 +1,5 @@
 
 
 git add -A
-git commit -m "wirte rotation matrix"
+git commit
 git push origin main
