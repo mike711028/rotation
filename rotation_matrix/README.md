@@ -89,5 +89,19 @@ P^w = R^w_b P^b
 此運算式可以解釋成在b-frame上的 $P^b$ 隨著b-frame轉動後，在w-frame上看 $P^b$
 的結果
 
+## pre-multiplication and post-multiplication 
+如果對一個旋轉矩陣後乘或是前乘令一個旋轉矩陣將會有不同的結果
+
+- pre-multiplication
+rotation about the current axis
+
+![Alt text](image/rotation_matrix_5.png)
+
+```math
+R^a_b R^b_c
+```
+
+
+
 ### reference:
 [pdf](pdf/postmultiply.pdf)
