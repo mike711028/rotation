@@ -31,6 +31,8 @@ x^w_b & y^w_b & z^w_b
 \end{bmatrix}
 $$
 
+$R^w_b$ 當中的上標代表參考座標系(reference frame)，而下標代表目標座標系(target frame)，意思是指目標座標系在參考座標系中的相對位置
+
 如果由z軸朝下看x-y平面的話，繞著z軸的轉動可以寫成
 
 ![Alt text](image/rotation_matrix_3.png)
@@ -50,14 +52,14 @@ $$
 並且經由一定的順序來描述各種旋轉，最常見的為z-y-x
 
 ## 點在空間中的轉動
-如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合
+如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合。
 在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
 
 ![Alt text](image/rotation_matrix_4.png)
 
 如上圖所示，當b-frame旋轉時，b-frame上的 $P^b$ 也會跟著旋轉(與b-frame相對位置不變)，
-此時旋轉後的結果就是 $P^b$ 在w-frame上的位置
-
+此時旋轉後的結果就是 $P^b$ 在w-frame上的位置，經旋轉矩陣可以計算出
+$P^b$ 旋轉後在w-frame上的結果為
 ```math
 \begin{bmatrix}
 0 \\ 1 \\ 0
@@ -78,3 +80,11 @@ $$
 1 \\ 0 \\ 0
 \end{bmatrix}
 ```
+運算得到的結果稱為 $P^w$ 是以w-frame為參考座標系
+
+```math
+P^w = R^w_b P^b
+```
+
+此運算式可以解釋成在b-frame上的 $P^b$ 隨著b-frame轉動後，在w-brame上看 $P^b$
+的結果
