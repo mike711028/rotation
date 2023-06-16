@@ -88,3 +88,6 @@ P^w = R^w_b P^b
 
 此運算式可以解釋成在b-frame上的 $P^b$ 隨著b-frame轉動後，在w-frame上看 $P^b$
 的結果
+
+### reference:
+[pdf](pdf/postmultiply.pdf)
