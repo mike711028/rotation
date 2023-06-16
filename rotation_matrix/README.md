@@ -92,19 +92,25 @@ P^w = R^w_b P^b
 ## pre-multiplication and post-multiplication 
 如果對一個旋轉矩陣後乘或是前乘另外一個旋轉矩陣將會有不同的結果
 
-- pre-multiplication
+### -pre-multiplication
 rotation about the current axis
 
 ![Alt text](image/rotation_matrix_5.png)
 
 從 \{a\} 沿著 $z^a$ 轉動至 \{b\} 此時下一個轉動是沿著當下的 \{b\} 去旋轉
-所以後乘上 ${c}$ 相對於 ``{b}`` 的 $R^b_c$
+所以後乘上 \{c\} 相對於 \{b\} 的 $R^b_c$
 
 ```math
 R^a_b R^b_c
 ```
 
-- post-multiplication
+### post-multiplication
+
+這邊要先提出一個similarity transformation，當有任意一個以 \{b\} 為參考座標系的 $R^b$ ，若要找到以 \{a\} 為參考座標的等價 $R^a$ 那麼其similarity transformation為
+
+```math
+R^b = (R^a_b)^{-1} R^a (R^a_b)
+```
 
 
 
