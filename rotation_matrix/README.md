@@ -86,5 +86,5 @@ $P^b$ 旋轉後在w-frame上的結果為
 P^w = R^w_b P^b
 ```
 
-此運算式可以解釋成在b-frame上的 $P^b$ 隨著b-frame轉動後，在w-brame上看 $P^b$
+此運算式可以解釋成在b-frame上的 $P^b$ 隨著b-frame轉動後，在w-frame上看 $P^b$
 的結果
