@@ -10,3 +10,5 @@ $$
 
 $R^w_b$為b-frame相對於w-frame的旋轉矩陣， $x^w_b$ 、 $y^w_b$ 、 $z^w_b$ 則是代表
 $x_b$ 、 $y_b$ 、 $z_b$ 在w-frame中的表示方法
+
+![Alt text](image/rotation_matrix_1.png)
