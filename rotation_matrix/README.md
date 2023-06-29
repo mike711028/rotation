@@ -12,11 +12,12 @@ $$
 $R^w_b$為b-frame相對於w-frame的旋轉矩陣， $x^w_b$ 、 $y^w_b$ 、 $z^w_b$ 則是代表
 $x_b$ 、 $y_b$ 、 $z_b$ 在w-frame中的表示方法
 
-![Alt text](image/rotation_matrix_1.png)
+<p align="center">
+<img src="image/rotation_matrix_1.png">
+</p>
+![Alt text](image/)
 
 假設原本b-frame和w-frame重合，b-frame繞著z軸旋轉90度，此時兩者的相對位置為
-
-![Alt text](image/rotation_matrix_2.png)
 
 那麼敘述兩者之間的旋轉矩陣為
 
@@ -57,7 +58,9 @@ $$
 如何使用旋轉矩陣來描述點在空間中的轉動，此時一開始b-frame跟w-frame重合。
 在b-frame上有個點 $P^b$ ，若b-frame繞著z軸旋轉90度，則 $P^b$ 在w-frame當中為
 
-![Alt text](image/rotation_matrix_4.png)
+<p align="center">
+<img src="image/rotation_matrix_4.png">
+</p>
 
 如上圖所示，當b-frame旋轉時，b-frame上的 $P^b$ 也會跟著旋轉(與b-frame相對位置不變)，
 此時旋轉後的結果就是 $P^b$ 在w-frame上的位置，經旋轉矩陣可以計算出
@@ -97,7 +100,9 @@ P^w = R^w_b P^b
 ### pre-multiplication
 rotation about the current axis
 
-![Alt text](image/rotation_matrix_5.png)
+<p align="center">
+<img src="image/rotation_matrix_5.png">
+</p>
 
 從 \{a\} 沿著 $z^a$ 轉動至 \{b\} 此時下一個轉動是沿著當下的 \{b\} 去旋轉
 所以後乘上 \{c\} 相對於 \{b\} 的 $R^b_c$
