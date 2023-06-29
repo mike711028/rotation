@@ -35,7 +35,9 @@ $R^w_b$ 當中的上標代表參考座標系(reference frame)，而下標代表�
 
 如果由z軸朝下看x-y平面的話，繞著z軸的轉動可以寫成
 
-![Alt text](image/rotation_matrix_3.png)
+<p align="center">
+<img src="image/rotation_matrix_3.png">
+</p>
 
 $$
 R^w_b(\theta = 90) = 
