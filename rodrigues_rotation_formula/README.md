@@ -9,8 +9,9 @@ $$
 \end{aligned}
 $$
 
-
-![Alt text](image/plot1.drawio.png)
+<p align="center">
+<img src="image/plot1.drawio.png">
+</p>
 
 向量 $\vec{v}$ 的分量 $\vec{v}_{\parallel}$ 是投影在旋轉軸 $\hat n$ 上的向量，在旋轉的時候不會受到變化，所以
 
@@ -18,11 +19,15 @@ $$
 \vec{v_{\parallel}} = {\vec{v_{\parallel}}}^{\prime}
 $$
 
-![Alt text](image/plot2.drawio.png)
+<p align="center">
+<img src="image/plot2.drawio.png">
+</p>
 
 事實上，當向量 $\vec v$ 繞著旋轉軸旋轉時，只有 $\vec{v}_{\perp}$ 跟著旋轉
 
-![Alt text](image/plot3.drawio.png)
+<p align="center">
+<img src="image/plot3.drawio.png">
+</p>
 
 所以只要算出 ${\vec{v}_{\perp}}^{\prime}$ 就能得到 ${\vec{v}}^{\prime}$
 
