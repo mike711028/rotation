@@ -141,7 +141,13 @@ R^b_c = (R^a_b)^{-1} R^a (R^a_b)
 R^a_b R^b_c = R^a_b (R^a_b)^{-1} R^a (R^a_b) = R^a (R^a_b)
 ```
 
+無論轉動幾次都是以 \{a\} 為參考座標，稱 \{a\} 為fixed frame，在空間中的旋轉方式為
 
+<p align="center">
+<img src="image/rotation_matrix_6.png">
+</p>
+
+結論，同樣都是以先繞z軸90度，再繞x軸90度，在fixed frame的方式跟在current frame的方式去轉會產生不同的結果，分別以pre-multiplication跟post-multiplication去運算出相對應的旋轉矩陣
 
 ### reference:
 [pdf](pdf/postmultiply.pdf)
