@@ -97,7 +97,7 @@ P^w = R^w_b P^b
 ## pre-multiplication and post-multiplication 
 如果對一個旋轉矩陣後乘或是前乘另外一個旋轉矩陣將會有不同的結果
 
-### pre-multiplication
+### post-multiplication
 rotation about the current axis
 
 <p align="center">
@@ -111,18 +111,35 @@ rotation about the current axis
 R^a_b R^b_c
 ```
 
-### post-multiplication
+### pre-multiplication
 
-這邊要先提出similarity transformation，當有任意一個以 \{b\} 為參考座標系的 $R^b$ ，若要找到以 \{a\} 為參考座標的等價 $R^a$ 那麼其similarity transformation為
+這邊要先提出similarity transformation，當有任意一個以 \{a\} 為參考座標系的 $R^a$ ，若要找到其相等的相對轉動但是是以 \{b\} 為參考座標，那麼可利用similarity transformation得到 $R^b$
 
 ```math
 R^b = (R^a_b)^{-1} R^a (R^a_b)
 ```
 
-依照前面
+此時， $R^b$ 和 $R^a$ 表達了在不同參考座標下中的同一個旋轉表示方式
+舉例 $R^a$ 為在 \{a\} 繞著z軸旋轉90度，若要找到此旋轉在 \{b\} 的旋轉矩陣
+就要用similarity transformation得出 $R^b$
 
+回到pre-multiplication，原本沿著current frame轉動的post-multiplication為
 
+```math
+R^a_b R^b_c
+```
 
+如果 $R^b_c$ 的轉動想要改成在 \{a\} 完成，要透過similarity transformation
+
+```math
+R^b_c = (R^a_b)^{-1} R^a (R^a_b)
+```
+
+將similariy transformation帶入post-multiplication 
+
+```math
+R^a_b R^b_c = R^a_b (R^a_b)^{-1} R^a (R^a_b) = R^a (R^a_b)
+```
 
 
 
