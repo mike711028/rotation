@@ -150,4 +150,6 @@ R^a_b R^b_c = R^a_b (R^a_b)^{-1} R^a (R^a_b) = R^a (R^a_b)
 結論，同樣都是以先繞z軸90度，再繞x軸90度，在fixed frame的方式跟在current frame的方式去轉會產生不同的結果，分別以pre-multiplication跟post-multiplication去運算出相對應的旋轉矩陣
 
 ### reference:
-[pdf](pdf/postmultiply.pdf)
+[Pre- and Postmultiplication by Transformation Operators](pdf/postmultiply.pdf)
+
+[Transformation Matrices](pdf/trans.mat.pdf)
