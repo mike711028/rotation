@@ -21,7 +21,7 @@ The configuration of a moving body is represented by the homogeneous transformat
 a & b & c & d \\
 e & f & g & h \\
 i & j & k & l \\
-m & n & o & p \\
+m & n & o & p
 \end{bmatrix}
 ```
 
@@ -31,6 +31,6 @@ $$
 a & b & c & d \\
 e & f & g & h \\
 i & j & k & l \\
-m & n & o & p \\
+m & n & o & p
 \end{bmatrix}
 $$
