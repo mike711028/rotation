@@ -31,14 +31,18 @@ m & n & o & p
 
 
 $$
+
 \begin{bmatrix}
 0 \\ 1 \\ 0 \\ 1
 \end{bmatrix} 
+
 =
+
 \begin{bmatrix}
 a & b & c & d \\
 e & f & g & h \\
 i & j & k & l \\
 m & n & o & p
 \end{bmatrix}
+
 $$
