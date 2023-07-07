@@ -29,8 +29,17 @@ The configuration of a moving body is represented by the homogeneous transformat
 
 
 ```math
+T^{-1} 
+=
+\begin{bmatrix}
+R & p  \\
+0 & 1 
+\end{bmatrix}^{-1}
+=
 \begin{bmatrix}
 R^{-1} & -R^{-1}p  \\
 0 & 1 
 \end{bmatrix}
+\in
+SE(3)
 ```
