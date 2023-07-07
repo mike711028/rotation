@@ -18,18 +18,19 @@ The configuration of a moving body is represented by the homogeneous transformat
 
 ```math
 \begin{bmatrix}
-0 \\ 1 \\ 0 \\ 1
-\end{bmatrix} 
-=
-\begin{bmatrix}
-a & b & c & d \\
-e & f & g & h \\
-i & j & k & l \\
-m & n & o & p
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
 \end{bmatrix}
 ```
 
+* Inverse: The inverse of a transformation matrix $T \in SE(3)$ is also a transformation matrix and can be computed.
 
 
-
-$$\begin{bmatrix} a & b \\ c & d \end{bmatrix}=\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
+```math
+\begin{bmatrix}
+R^{-1} & -R^{-1}p  \\
+0 & 1 
+\end{bmatrix}
+```
